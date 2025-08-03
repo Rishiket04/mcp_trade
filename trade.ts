@@ -40,6 +40,7 @@ console.log(kc.getLoginURL());
 // // Initialize the API calls
 // getProfile();
 
+
 export async function placeOrder(tradingsymbol:string, transactionType:"BUY"|"SELL", quantity:number) {
 //   try{const allowedTypes = ["BUY", "SELL"];
 //   if (!allowedTypes.includes(transactionType)) {
