@@ -38,6 +38,7 @@ placeOrder("RELIANCE", "BUY", 1);
 // );
 
 // Start receiving messages on stdin and sending messages on stdout
+
 const transport = new StdioServerTransport();
 (async () => {
   await server.connect(transport);
